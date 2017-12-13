@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"
+    assembly="QuestionLib" namespace="QuestionLib.Entity">
+
+  <class
+      name="EssayQuestion"
+      table="EssayQuestion"
+      lazy="true">
+
+    <id name="EQID" column="EQID">
+      <generator class="native"/>
+    </id>
+    <property name="CourseId" column="CourseId" not-null="false" unique="false"/>
+    <property name="ChapterId" column="ChapterId" not-null="false" unique="false"/>
+    <property name="Question" column="Question" not-null="false" unique="false" type="BinaryBlob"/>
+    <property name="QuestionFileSize" column="QuestionFileSize" not-null="false" unique="false"/>
+    <property name="Name" column="Name" not-null="false" unique="false"/>
+    <property name="Guide2Mark" column="Guide2Mark" not-null="false" unique="false" type="BinaryBlob"/>
+    <property name="Guide2MarkFileSize" column="Guide2MarkFileSize" not-null="false" unique="false"/>
+
+
+  </class>
+
+</hibernate-mapping>
+
+

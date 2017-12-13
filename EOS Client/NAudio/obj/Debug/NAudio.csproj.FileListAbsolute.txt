@@ -1,0 +1,13 @@
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.csprojResolveAssemblyReference.cache
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.Gui.Fader.resources
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.Gui.PanSlider.resources
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.Gui.Pot.resources
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.Gui.VolumeSlider.resources
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.Gui.WaveViewer.resources
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.Utils.ProgressLog.resources
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.csproj.GenerateResource.Cache
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.csproj.CoreCompileInputs.cache
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\bin\Debug\NAudio.dll
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\bin\Debug\NAudio.pdb
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.dll
+C:\Users\h4ltYu\Desktop\EOS Client\NAudio\obj\Debug\NAudio.pdb

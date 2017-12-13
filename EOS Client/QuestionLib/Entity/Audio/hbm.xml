@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"
+    assembly="QuestionLib" namespace="QuestionLib.Entity">
+
+  <class
+      name="Audio"
+      table="Audio"
+      lazy="true">
+
+    <id name="AuID" column="AuID">
+      <generator class="native"/>
+    </id>
+    <property name="ChID" column="ChID" not-null="true" unique="true"/>
+    <property name="AudioFile" column="AudioFile" not-null="true" unique="false"/>
+    <property name="AudioSize" column="AudioSize" not-null="true" unique="false"/>
+    <property name="AudioData" column="AudioData" not-null="true" unique="false" type="BinaryBlob"/>
+    <property name="AudioLength" column="AudioLength" not-null="true" unique="false"/>
+  
+  </class>
+
+</hibernate-mapping>
+
+

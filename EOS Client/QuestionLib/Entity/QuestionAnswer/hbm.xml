@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"
+    assembly="QuestionLib" namespace="QuestionLib.Entity">
+
+    <class 
+        name="QuestionAnswer" 
+        table="QuestionAnswer" 
+        lazy="true">
+        
+        <id name="QAID" column="QAID">            
+            <generator class="native"/>            
+        </id>        
+        <property name="QID" column="QID" not-null="false" unique="false"/>   
+        <property name="Text" column="Text" not-null="false" unique="false"/>   
+        <property name="Chosen" column="Chosen" not-null="false" unique="false"/>   
+         
+        
+    </class>
+    
+</hibernate-mapping>
+
+
+

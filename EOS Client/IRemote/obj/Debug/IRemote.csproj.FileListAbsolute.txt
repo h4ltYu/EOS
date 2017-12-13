@@ -1,0 +1,9 @@
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\bin\Debug\IRemote.dll
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\bin\Debug\IRemote.pdb
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\bin\Debug\QuestionLib.dll
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\bin\Debug\NHibernate.dll
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\bin\Debug\QuestionLib.pdb
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\obj\Debug\IRemote.csprojResolveAssemblyReference.cache
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\obj\Debug\IRemote.csproj.CoreCompileInputs.cache
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\obj\Debug\IRemote.dll
+C:\Users\h4ltYu\Desktop\EOS Client\IRemote\obj\Debug\IRemote.pdb

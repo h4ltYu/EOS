@@ -1,0 +1,7 @@
+C:\Users\h4ltYu\Desktop\EOS Client\QuestionLib\obj\Debug\QuestionLib.csprojResolveAssemblyReference.cache
+C:\Users\h4ltYu\Desktop\EOS Client\QuestionLib\obj\Debug\QuestionLib.csproj.CoreCompileInputs.cache
+C:\Users\h4ltYu\Desktop\EOS Client\QuestionLib\bin\Debug\QuestionLib.dll
+C:\Users\h4ltYu\Desktop\EOS Client\QuestionLib\bin\Debug\QuestionLib.pdb
+C:\Users\h4ltYu\Desktop\EOS Client\QuestionLib\bin\Debug\NHibernate.dll
+C:\Users\h4ltYu\Desktop\EOS Client\QuestionLib\obj\Debug\QuestionLib.dll
+C:\Users\h4ltYu\Desktop\EOS Client\QuestionLib\obj\Debug\QuestionLib.pdb

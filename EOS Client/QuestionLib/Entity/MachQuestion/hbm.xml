@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"
+    assembly="QuestionLib" namespace="QuestionLib.Entity">
+
+    <class 
+        name="MatchQuestion" 
+        table="MatchQuestion" 
+        lazy="true">
+        
+        <id name="MID" column="MID">            
+            <generator class="native"/>            
+        </id>        
+        <property name="CourseId" column="CourseId" not-null="false" unique="false"/> 
+        <property name="ChapterId" column="ChapterId" not-null="false" unique="false"/>    
+        <property name="ColumnA" column="ColumnA" not-null="false" unique="false"/>   
+        <property name="ColumnB" column="ColumnB" not-null="false" unique="false"/>   
+        <property name="Solution" column="Solution" not-null="false" unique="false"/>    
+        <property name="Mark" column="Mark" not-null="false" unique="false"/>   
+        
+    </class>
+    
+</hibernate-mapping>
+
+

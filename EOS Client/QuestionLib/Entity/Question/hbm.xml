@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"
+    assembly="QuestionLib" namespace="QuestionLib.Entity">
+
+    <class 
+        name="Question" 
+        table="Question" 
+        lazy="true">
+        
+        <id name="QID" column="QID">            
+            <generator class="native"/>            
+        </id>     
+        <property name="CourseId" column="CourseId" not-null="false" unique="false"/>   
+        <property name="ChapterId" column="ChapterId" not-null="false" unique="false"/>         
+        <property name="PID" column="PID" not-null="false" unique="false"/>   
+        <property name="Text" column="Text" not-null="false" unique="false" type="StringClob"/>   
+        <property name="Mark" column="Mark" not-null="false" unique="false"/>    
+        <property name="QType" column="QType" not-null="false" unique="false"/>    
+        <property name="Lock" column="Lock" not-null="false" unique="false"/>   
+        
+        <property name="ImageData" column="ImageData" not-null="false" unique="false" type="BinaryBlob"/>   
+        <property name="ImageSize" column="ImageSize" not-null="false" unique="false"/>   
+      
+        
+    </class>
+    
+</hibernate-mapping>
+
+

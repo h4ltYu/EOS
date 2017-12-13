@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"
+    assembly="QuestionLib" namespace="QuestionLib.Entity">
+
+    <class 
+        name="Passage" 
+        table="Passage" 
+        lazy="true">
+        
+        <id name="PID" column="PID">            
+            <generator class="native"/>            
+        </id>        
+        <property name="CourseId" column="CourseId" not-null="false" unique="false"/>   
+        <property name="ChapterId" column="ChapterId" not-null="false" unique="false"/>    
+        <property name="Text" column="Text" not-null="false" unique="false" type="StringClob"/>         
+       
+        
+    </class>
+    
+</hibernate-mapping>
+

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EOSClient", "EOSClient\EOSClient.csproj", "{B76E2473-5FDB-4A85-A722-265B558C2478}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F23AD411-C557-476A-85A9-B14D15D4A605} = {F23AD411-C557-476A-85A9-B14D15D4A605}
+		{F6272222-B158-4803-A028-2F0957D9CFAC} = {F6272222-B158-4803-A028-2F0957D9CFAC}
+		{A68D169F-781A-46F4-A8D7-4A8367E4AF51} = {A68D169F-781A-46F4-A8D7-4A8367E4AF51}
+		{B35CEAE5-499C-48CF-91EC-D9E313FA567C} = {B35CEAE5-499C-48CF-91EC-D9E313FA567C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptData", "EncryptData\EncryptData.csproj", "{F6272222-B158-4803-A028-2F0957D9CFAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRemote", "IRemote\IRemote.csproj", "{F23AD411-C557-476A-85A9-B14D15D4A605}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B35CEAE5-499C-48CF-91EC-D9E313FA567C} = {B35CEAE5-499C-48CF-91EC-D9E313FA567C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionLib", "QuestionLib\QuestionLib.csproj", "{B35CEAE5-499C-48CF-91EC-D9E313FA567C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio", "NAudio\NAudio.csproj", "{A68D169F-781A-46F4-A8D7-4A8367E4AF51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B76E2473-5FDB-4A85-A722-265B558C2478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76E2473-5FDB-4A85-A722-265B558C2478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76E2473-5FDB-4A85-A722-265B558C2478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76E2473-5FDB-4A85-A722-265B558C2478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6272222-B158-4803-A028-2F0957D9CFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6272222-B158-4803-A028-2F0957D9CFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6272222-B158-4803-A028-2F0957D9CFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6272222-B158-4803-A028-2F0957D9CFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23AD411-C557-476A-85A9-B14D15D4A605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23AD411-C557-476A-85A9-B14D15D4A605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23AD411-C557-476A-85A9-B14D15D4A605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23AD411-C557-476A-85A9-B14D15D4A605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B35CEAE5-499C-48CF-91EC-D9E313FA567C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35CEAE5-499C-48CF-91EC-D9E313FA567C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35CEAE5-499C-48CF-91EC-D9E313FA567C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35CEAE5-499C-48CF-91EC-D9E313FA567C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68D169F-781A-46F4-A8D7-4A8367E4AF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68D169F-781A-46F4-A8D7-4A8367E4AF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68D169F-781A-46F4-A8D7-4A8367E4AF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68D169F-781A-46F4-A8D7-4A8367E4AF51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB64AEC6-D8E2-4093-919D-5271B58746FB}
+	EndGlobalSection
+EndGlobal

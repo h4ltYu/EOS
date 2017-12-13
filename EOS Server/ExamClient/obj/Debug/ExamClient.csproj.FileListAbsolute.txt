@@ -1,0 +1,14 @@
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\obj\Debug\ExamClient.CustomAutoScrollPanel.ScrollablePanel.resources
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\obj\Debug\ExamClient.frmEnglishExamClient.resources
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\obj\Debug\ExamClient.Properties.Resources.resources
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\obj\Debug\ExamClient.csproj.GenerateResource.Cache
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\obj\Debug\ExamClient.csproj.CoreCompileInputs.cache
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\bin\Debug\ExamClient.dll
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\bin\Debug\ExamClient.pdb
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\bin\Debug\EncryptData.dll
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\bin\Debug\IRemote.dll
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\bin\Debug\NAudio.dll
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\bin\Debug\QuestionLib.dll
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\bin\Debug\NAudio.xml
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\obj\Debug\ExamClient.dll
+C:\Users\h4ltYu\Desktop\EOS\EOS Server\ExamClient\obj\Debug\ExamClient.pdb

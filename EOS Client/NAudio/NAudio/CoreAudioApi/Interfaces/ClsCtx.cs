@@ -1,0 +1,53 @@
+﻿using System;
+
+namespace NAudio.CoreAudioApi.Interfaces
+{
+	/// <summary>
+	/// is defined in WTypes.h
+	/// </summary>
+	// Token: 0x02000123 RID: 291
+	[Flags]
+	internal enum ClsCtx
+	{
+		// Token: 0x04000706 RID: 1798
+		INPROC_SERVER = 1,
+		// Token: 0x04000707 RID: 1799
+		INPROC_HANDLER = 2,
+		// Token: 0x04000708 RID: 1800
+		LOCAL_SERVER = 4,
+		// Token: 0x04000709 RID: 1801
+		INPROC_SERVER16 = 8,
+		// Token: 0x0400070A RID: 1802
+		REMOTE_SERVER = 16,
+		// Token: 0x0400070B RID: 1803
+		INPROC_HANDLER16 = 32,
+		// Token: 0x0400070C RID: 1804
+		NO_CODE_DOWNLOAD = 1024,
+		// Token: 0x0400070D RID: 1805
+		NO_CUSTOM_MARSHAL = 4096,
+		// Token: 0x0400070E RID: 1806
+		ENABLE_CODE_DOWNLOAD = 8192,
+		// Token: 0x0400070F RID: 1807
+		NO_FAILURE_LOG = 16384,
+		// Token: 0x04000710 RID: 1808
+		DISABLE_AAA = 32768,
+		// Token: 0x04000711 RID: 1809
+		ENABLE_AAA = 65536,
+		// Token: 0x04000712 RID: 1810
+		FROM_DEFAULT_CONTEXT = 131072,
+		// Token: 0x04000713 RID: 1811
+		ACTIVATE_32_BIT_SERVER = 262144,
+		// Token: 0x04000714 RID: 1812
+		ACTIVATE_64_BIT_SERVER = 524288,
+		// Token: 0x04000715 RID: 1813
+		ENABLE_CLOAKING = 1048576,
+		// Token: 0x04000716 RID: 1814
+		PS_DLL = -2147483648,
+		// Token: 0x04000717 RID: 1815
+		INPROC = 3,
+		// Token: 0x04000718 RID: 1816
+		SERVER = 21,
+		// Token: 0x04000719 RID: 1817
+		ALL = 23
+	}
+}

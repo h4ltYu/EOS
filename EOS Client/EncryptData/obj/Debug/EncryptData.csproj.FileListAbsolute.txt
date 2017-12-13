@@ -1,0 +1,6 @@
+C:\Users\h4ltYu\Desktop\EOS Client\EncryptData\bin\Debug\EncryptData.dll
+C:\Users\h4ltYu\Desktop\EOS Client\EncryptData\bin\Debug\EncryptData.pdb
+C:\Users\h4ltYu\Desktop\EOS Client\EncryptData\obj\Debug\EncryptData.csproj.CoreCompileInputs.cache
+C:\Users\h4ltYu\Desktop\EOS Client\EncryptData\obj\Debug\EncryptData.dll
+C:\Users\h4ltYu\Desktop\EOS Client\EncryptData\obj\Debug\EncryptData.pdb
+C:\Users\h4ltYu\Desktop\EOS Client\EncryptData\obj\Debug\EncryptData.csprojResolveAssemblyReference.cache

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"
+    assembly="QuestionLib" namespace="QuestionLib.Entity">
+
+    <class 
+        name="Test" 
+        table="Test" 
+        lazy="true">
+        
+        <id name="TestId" column="TestId">            
+            <generator class="assigned"/>            
+        </id>     
+        <property name="CourseId" column="CourseId" not-null="false" unique="false"/>      
+        <property name="Questions" column="Questions" not-null="false" unique="false"/>   
+        <property name="NumOfQuestion" column="NumOfQuestion" not-null="false" unique="false"/>   
+        <property name="Mark" column="Mark" not-null="false" unique="false"/>
+        <property name="StudentGuide" column="StudentGuide" not-null="false" unique="false" type="StringClob"/>                          
+        
+    </class>
+    
+</hibernate-mapping>
+
+

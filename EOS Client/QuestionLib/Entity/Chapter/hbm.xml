@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.0"
+    assembly="QuestionLib" namespace="QuestionLib.Entity">
+
+    <class name="Chapter" table="Chapter" lazy="true">        
+        <id name="ChID" column="ChID">            
+            <generator class="native"/>            
+        </id>     
+        <property name="CID" column="CID" not-null="true" unique="false"/>   
+        <property name="Name" column="Name" not-null="false" unique="false"/>         
+    </class>    
+</hibernate-mapping>

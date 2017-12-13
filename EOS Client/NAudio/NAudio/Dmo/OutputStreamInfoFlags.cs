@@ -1,0 +1,20 @@
+﻿using System;
+
+namespace NAudio.Dmo
+{
+	// Token: 0x0200020D RID: 525
+	[Flags]
+	internal enum OutputStreamInfoFlags
+	{
+		// Token: 0x04000C47 RID: 3143
+		DMO_OUTPUT_STREAMF_WHOLE_SAMPLES = 1,
+		// Token: 0x04000C48 RID: 3144
+		DMO_OUTPUT_STREAMF_SINGLE_SAMPLE_PER_BUFFER = 2,
+		// Token: 0x04000C49 RID: 3145
+		DMO_OUTPUT_STREAMF_FIXED_SAMPLE_SIZE = 4,
+		// Token: 0x04000C4A RID: 3146
+		DMO_OUTPUT_STREAMF_DISCARDABLE = 8,
+		// Token: 0x04000C4B RID: 3147
+		DMO_OUTPUT_STREAMF_OPTIONAL = 16
+	}
+}
